@@ -28,5 +28,19 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Harshvardhan32/coding-junior-assignment.git
+   cd coding-junior-assignment
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+
+3. **Set up environment variables**:
+   ```bash
+   PORT = port_number
+   MONGO_URL = 'mongodb_url'
+   JWT_SECRET = 'your_jwt_secret'
+   
+1. **Start the server**:
+   ```bash
+   npm start
